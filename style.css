@@ -1,0 +1,72 @@
+/* Header */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    height: 80px;
+}
+
+
+header .logo {
+    float: left;
+    margin-left: 20px;
+    height: 80px;
+}
+
+header .title {
+    float:center;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: -2px 2px orange;
+    font-family: "Arial";
+}
+
+/* nav */
+
+nav ul {
+    list-style-type: none;
+    background-color: #cccccc;
+    margin: 0px;
+    float: left;
+}
+
+nav li {
+    display: inline;
+    margin: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+}
+
+}
+section {
+    width:auto;
+    float:none;
+    padding:10px;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+body {
+    padding: 0% 5%;
+    background-image: url("/home/diego/Pictures/nature_landscape-wallpaper-1366x768.jpg");
+    background-color: #339933;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.7);
+}
